@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/aos.css">
   </head>
   <body class="boxed-layout" onload="window.grett()" >
     <div class="wrapper">
@@ -47,10 +48,10 @@
               <div class="flex-split">
                 <div class="container">
                   <div class="flex-inner flex-inverted align-center">
-                    <div class="f-image f-image-inverted">
+                    <div class="f-image f-image-inverted" data-aos="fade-left" >
                       <img class="img-fluid" src="assets/images/aku.png" alt="Feature">
                     </div>
-                    <div class="f-text">
+                    <div class="f-text" data-aos="fade-right">
                       <div class="left-content">
                         
                         <!-- <h1 id="gre" > </h1> -->
@@ -63,7 +64,7 @@
                         <p class="condition_txt">Pelajar SMK<br> Mobile design, dan Mobile Developer Flutter</p>
                       </div>
                       
-                      <a class="btn-action btn-outline nav-link js-scroll-trigger" href="#features"  >See More</a>
+                      <!-- <a class="btn-action btn-outline nav-link js-scroll-trigger" href="#features"  >See More</a> -->
                     </div>
                   </div>
                 </div>
@@ -77,7 +78,7 @@
         <div class="yd-cat" id="tentang" >
           <div class="container">
             <div class="cat-inner">
-              <div class="ft-inner ft-inverted align-center">
+              <div class="ft-inner ft-inverted align-center" data-aos="fade-down" >
                 <div class="ft-image f-image-inverted">
                   <img class="img-fluid" src="assets/images/head.png" alt="Feature">
                 </div>
@@ -93,12 +94,12 @@
               <div class="cat-flex">
                 <div class="cat1">
                   <div class="cat-item clr1">
-                    <div class="cat-icon">
+                    <div class="cat-icon" data-aos="fade-down"  >
                       <div class="cat-img">
                         <img src="assets/icons/cat1.png" width="80" alt="Feature">
                       </div>
                     </div>
-                    <div class="cat-text">
+                    <div class="cat-text" data-aos="fade-up">
                       <h3>Belajar dari youtube</h3>
                       <p>Aku belajar pemrograman dari youtube dan sumber internet</p>
                     </div>
@@ -106,12 +107,12 @@
                 </div>
                 <div class="cat1">
                   <div class="cat-item clr2">
-                    <div class="cat-icon">
+                    <div class="cat-icon" data-aos="fade-down">
                       <div class="cat-img">
                         <img src="assets/icons/cat2.png" width="80" alt="Feature">
                       </div>
                     </div>
-                    <div class="cat-text">
+                    <div class="cat-text" data-aos="fade-up">
                       <h3>Selalu kepo</h3>
                       <p>Karena kepo inilah aku selalu mencari tahu kemanasaja</p>
                     </div>
@@ -119,12 +120,12 @@
                 </div>
                 <div class="cat1">
                   <div class="cat-item clr3">
-                    <div class="cat-icon">
+                    <div class="cat-icon" data-aos="fade-down">
                       <div class="cat-img">
                         <img src="assets/icons/cat3.png" width="80" alt="Feature">
                       </div>
                     </div>
-                    <div class="cat-text">
+                    <div class="cat-text" data-aos="fade-up">
                       <h3>Android</h3>
                       <p>Untuk sekarang aku sedang belajar di Android, untuk kedepan mungkin web dan BE</p>
                     </div>
@@ -133,12 +134,12 @@
               
                 <div class="cat1">
                   <div class="cat-item clr4">
-                    <div class="cat-icon">
+                    <div class="cat-icon" data-aos="fade-down">
                       <div class="cat-img">
                         <img src="assets/icons/flut.png" width="80" alt="Feature">
                       </div>
                     </div>
-                    <div class="cat-text">
+                    <div class="cat-text" data-aos="fade-up">
                       <h3>Flutter</h3>
                       <p>Ini sangat bagus, aku antusias dengan yang satu ini</p>
                     </div>
@@ -153,7 +154,8 @@
         <!-- Features Section -->
         <div id="features" class="ft-flex">
           <div class="container">
-            <div class="ft-inner align-center">
+
+            <div class="ft-inner align-center" data-aos="fade-right" >
               <div class="ft-image wow">
                 <img class="img-fluid" src="assets/images/support.png" alt="Feature">
               </div>
@@ -166,7 +168,7 @@
               </div>
             </div>
 
-            <div class="ft-inner ft-inverted align-center">
+            <div class="ft-inner ft-inverted align-center" data-aos="fade-left" >
               <div class="ft-image f-image-inverted">
                 <img class="img-fluid" src="assets/images/write.png" alt="Feature">
               </div>
@@ -179,7 +181,7 @@
               </div>
             </div>
 
-            <div class="ft-inner align-center">
+            <div class="ft-inner align-center" data-aos="fade-right" >
               <div class="ft-image wow">
                 <img class="img-fluid" src="assets/icons/f3.png" alt="Feature">
               </div>
@@ -205,12 +207,12 @@
 
 
         <!-- Pricing Tables -->
-        <div id="pricing" class="pricing-section text-center">
+        <div id="pricing" class="pricing-section text-center" >
           <div class="container">
             <div class="row">
               <div class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1">
                 <div class="pricing-intro">
-                  <h1>Tools yang saya pakai dalam bekerja</h1>
+                  <h1 data-aos="fade-up" >Tools yang saya pakai dalam bekerja</h1>
                  <div class="cat-flex" >
 
 
@@ -274,12 +276,17 @@
 
     <!-- Jquery and Js Plugins -->
     <!-- <script src="assets/js/gret.js" ></script> -->
+    <script src="assets/js//aos.js" ></script>
+
     <script src="assets/js/jquery-2.1.1.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       function grett(){
   var d = new Date();
